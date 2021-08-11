@@ -175,17 +175,29 @@ Para separar seu documento e criar quebra de sessões, é possível inserir linh
 
 ### Imagens e gifs
 
-Para inserir imagen basta escrever o seguinte: `![título da imagem](caminho para a imagem em seu computador ou link para a imagem online)`
+Para inserir imagen basta escrever o seguinte: 
+
+```
+![título da imagem](caminho para a imagem em seu computador ou link para a imagem online)
+```
 
 ---
 
 Imagem com caminho em meu computador:
+
+```
+![unilab](imgs/unilab.png)
+```
 
 ![unilab](imgs/unilab.png)
 
 ---
 
 Imagem com url:
+
+```
+![logo hist](https://cclhm0057.netlify.app/favicon/logohist.png)
+```
 
 ![logo hist](https://cclhm0057.netlify.app/favicon/logohist.png)
 
@@ -336,14 +348,14 @@ Entretanto, exixtem vários editores de markdown que facilitam muito sua vida e 
 ### Slides, blogs e livros
 
 - RMarkdow e variações:
-  - [RMarkdown](https://beatrizmilz.com/talk/2020-rmarkdown-geocast/)
-  - [Xaringan](https://beatrizmilz.github.io/IME-27-08-2019/#1)
+  - [RMarkdown](https://beatrizmilz.com/talk/2020-rmarkdown-geocast/), material de [Beatriz Milz](https://beatrizmilz.com/)
+  - [Xaringan](https://beatrizmilz.github.io/IME-27-08-2019/#1), material de [Beatriz Milz](https://beatrizmilz.com/)
   - Bookdown e Blogdown
 - Reveal.js
 
 ### PDF e artigos científicos
 
-- [Pandoc](https://osf.io/ceb4a/)
+- [Pandoc](https://osf.io/ceb4a/), tutorial para criação de artigo científico usando Markdown e Pandoc de Renato Perim Colistete
 
 ### Deploy
 
@@ -355,7 +367,6 @@ Entretanto, exixtem vários editores de markdown que facilitam muito sua vida e 
 ## Contatos
 
 1. E-mails
-
   	- profericbrasil@unilab.edu.br
   	- ericbrasiln@protonmail.com
 2. Twitter: <a href="https://twitter.com/ericbrasiln" target="_blank">@ericbrasiln</a>
