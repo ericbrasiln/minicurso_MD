@@ -10,6 +10,10 @@ Markdown é uma sintaxe baseada em texto simples para formatação de documentos
 
 ---
 
+## Índice
+
+[TOC]
+
 ## Ementa
 
 O que é a sintaxe Markdown. Estrutura básica: cabeçalhos, parágrafos, tabelas, imagens, gifs, links, códigos, listas, html. Editores de markdown. "Sabores" e temas. Exportando e colocando online.
@@ -141,11 +145,11 @@ Por exemplo:
 
 Isso é renderizado como:
 
-| Coluna 1 | Coluna 2 | Coluna 3 |
-| -------- | --------- | -------- |
-| Linha 1, coluna 1 | Linha 1, coluna 2 | Linha 1, coluna 3|
-| Linha 2, coluna 1 | Linha 2, coluna 2 | Linha 2, coluna 3|
-| Linha 3, coluna 1 | Linha 3, coluna 2 | Linha 3, coluna 3|
+| Coluna 1          | Coluna 2          | Coluna 3          |
+| ----------------- | ----------------- | ----------------- |
+| Linha 1, coluna 1 | Linha 1, coluna 2 | Linha 1, coluna 3 |
+| Linha 2, coluna 1 | Linha 2, coluna 2 | Linha 2, coluna 3 |
+| Linha 3, coluna 1 | Linha 3, coluna 2 | Linha 3, coluna 3 |
 
 ---
 
@@ -161,9 +165,9 @@ Isso é renderizado como:
 ---
 
 | Alinhado à esquerda | Centralizado | Alinhado à direita |
-| :-------- | :-------: | --------: |
-| Maçãs | Vermelho | 5000 |
-| Bananas | Amarelo| 75 |
+| :------------------ | :----------: | -----------------: |
+| Maçãs               |   Vermelho   |               5000 |
+| Bananas             |   Amarelo    |                 75 |
 
 ---
 
@@ -242,11 +246,10 @@ A lista ordenada é criada inserindo `-` ou `*` no início de cada linha.
 
  ```
  Lista não ordenada
- 
-- ul
 	- ul
-- ul
-- ul
+		- ul
+	- ul
+	- ul
  ```
 
 ---
@@ -367,8 +370,8 @@ Entretanto, exixtem vários editores de markdown que facilitam muito sua vida e 
 ## Contatos
 
 1. E-mails
-  	- profericbrasil@unilab.edu.br
-  	- ericbrasiln@protonmail.com
+	* profericbrasil@unilab.edu.br
+	* ericbrasiln@protonmail.com
 2. Twitter: <a href="https://twitter.com/ericbrasiln" target="_blank">@ericbrasiln</a>
 3. Instagram: <a href="https://www.instagram.com/ericbrasiln/" target="_blank">ericbrasiln</a>
 4. Site pessoal: <a href="https://ericbrasiln.github.io/" target="_blank"> ericbrasiln.github.io</a>
