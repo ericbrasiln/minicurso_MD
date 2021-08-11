@@ -362,8 +362,8 @@ Entretanto, exixtem vários editores de markdown que facilitam muito sua vida e 
 
 ### Deploy
 
-- [Netlify](https://app.netlify.com/drop): Exportar como HTML para uma pasta e renomear como index.html. A pasta deve conter tb os demais elementos.
-- [Github](https://github.com/): criar uma conta, criar repositório com o arquivo `.md` e outros elmentos (imagens, gifs, etc). Publicar com [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://app.netlify.com/drop): Exportar como HTML para uma pasta e renomear como index.html. A pasta deve conter tb os demais elementos. 
+- [Github](https://github.com/): criar uma conta, criar repositório com o arquivo `.md` e outros elmentos (imagens, gifs, etc). Publicar com [GitHub Pages](https://pages.github.com/). Se vc publicar o site com o README.md o _flavour_ que será renderizado é o do __GitHub__. Se vc pretende publicar a página com algum tema específico, vc deve exportar o seu arquivo md para html (usando o Typora, por exemplo). Esse arquivo deve ser nomeado como `index.html` seguindo o mesmo padrão usado no Netlify.
 
 ---
 
